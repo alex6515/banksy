@@ -1,0 +1,270 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+
+background-image: url(girl-balloon.jpg);
+background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+
+  }
+#container{
+  width: 95%;
+  margin:auto;
+  }
+#header {
+    margin: 0px;
+    padding: 0px;
+  background-size: cover;
+  width: auto;
+  height: 105px;
+}
+
+/*navigation begins here*/
+.nav{
+  height: 60px;
+  margin: 0px 20px 0px 20px;
+  font-size: 25px;
+  border-radius:8px 8px 0px 0px;
+  text-align: center;
+}
+.nav ul{
+
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+.nav li {
+list-style-type: none;
+display: inline-block;
+padding: 20px;
+float:right;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav img{
+  float: left;
+  margin-top: 10px;
+}
+.nav li:hover{
+  background-color: #1E5466;
+  height: 20px;
+  border-radius: 8px 8px 0px 0px;
+}
+/*navigation bar*/
+
+/*-------------dropdown begins-----------------------*/
+}
+.dropdown {
+    position: relative;
+    /*display: inline-block;*/
+
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(242, 242, 247, 0.6);
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(102,102,102,0.6);
+}
+
+.dropdown i{
+
+}
+.hamburguer{
+  background-color:rgba(242, 242, 247, 0.1);
+  height: 60px;
+  width: 60px;
+border-radius:50%;
+
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: blue;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /*------dropdown ends-----------*/
+
+
+  .right-stuff-1{
+    width: 200px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.right-stuff-1 i{
+    font-weight: bold;
+    position: relative;
+    right: -160px;
+    font-size: 48px;
+    color: #00284d;
+}
+
+  .right-content-1{
+display: none;
+position: absolute;
+background-color:rgba(255, 255, 255, 0.3);
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .right-content-1 p{
+    text-align: center;
+    padding: 10px;
+  }
+.right-stuff-1:hover .right-content-1 {
+    display: block;
+}
+.right-stuff-1:hover i{
+  background-color:#33334d;
+  color: white;
+  border: 2px;
+  border-radius: 4px;
+  font-size: 52px;
+}
+ /*right-stuff-1 ends*/
+
+ .right-stuff-2{
+   width: 60px;
+   height: 20px;
+   float: right;
+   position: relative;
+   top: 130px;
+   right: -230px;
+ }
+ .right-stuff-2 i{
+   font-size: 38px;
+ }
+ .right-stuff-2:hover i{
+   border: 2px;
+   border-radius: 4px;
+   background-color: #cccccc;
+   color: #595959;
+ }
+/*------ stuff 2 ends------->*/
+
+
+ .right-stuff-3{
+     float: right;
+     position: relative;
+     right: -270px;
+     top: 240px;
+}
+.right-stuff-3 i{
+    font-size: 38px;
+}
+right-stuff-3: hover{
+    font-size: 42px;
+}
+/*--------------stuff 3 ends-------->*/
+
+/*main 1*/
+.main-content-1{
+width: 100%;
+height: 1300px;
+background-color:rgba(255, 255, 255, 0.9);
+position: relative;
+bottom: -700px;
+text-align: center;
+}
+.part-1{
+padding-left: 20px;
+}
+.part-1 img{
+float:right;
+margin-right:20px;
+margin-top: 20px;
+}
+.part-1 h1{
+  padding-top: 40px;
+  font-size: 40px;
+}
+.part-1 p{
+  width: 600px;
+color: grey;
+padding: 10px;
+margin-top: 40px;
+font-size: 22px;
+}
+
+.part-2{
+text-align: center;
+}
+.part-2 img{
+  float: left;
+  margin-top: 0px;
+  margin-left: 20px;
+  /*position: relative;
+  bottom: -210px;
+  margin-left: -60px;*/
+}
+.part-2 h1{
+  margin-top: 100px;
+}
+
+.part-2 p{
+width: 300px;
+text-align: center;
+float: right;
+display: block;
+font-size: 22px;
+color: grey;
+padding-top: 40px;
+margin-right:120px;
+}
+
+.part-3{
+  width: 100%;  
+}
+.part-3 img{
+    float: right;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+.part-3 p{
+    margin-left: 20px;
+    width: 400px;
+    display: block;
+    float: left;
+    color: gray;
+    font-size: 22px;
+}
+
+.part-3 h1{
+    margin-top: 400px;
+    
+}
+/*main 1 ends*/
+
+
+
+
+#footer{
+  width: 100%;
+    overflow: auto;
+    margin-top: 800px;
+    color:
+    position: relative;
+    /*right:950px;*/
+   
+    }
+#footer a{
+    float: right;
+    padding: 12px;
+    margin-right: 25px;
+}
