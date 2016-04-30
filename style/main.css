@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+
+
+
 body {
 
 background-image: url(girl-balloon.jpg);
@@ -60,9 +63,10 @@ float:right;
 /*navigation bar*/
 
 /*-------------dropdown begins-----------------------*/
-}
+
 .dropdown {
     position: relative;
+    font-family: fantasy cursive;
     /*display: inline-block;*/
 
   }
@@ -113,17 +117,20 @@ border-radius:50%;
     position: relative;
     right: -160px;
     font-size: 48px;
-    color: #00284d;
+    color:#33334d;
 }
 
   .right-content-1{
 display: none;
 position: absolute;
-background-color:rgba(255, 255, 255, 0.3);
+background-color:rgba(255, 255, 255, 0.8);
 min-width: 200px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
   }
   .right-content-1 p{
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
     text-align: center;
     padding: 10px;
   }
@@ -131,8 +138,7 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: block;
 }
 .right-stuff-1:hover i{
-  background-color:#33334d;
-  color: white;
+  color:#804000;
   border: 2px;
   border-radius: 4px;
   font-size: 52px;
@@ -144,33 +150,89 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    height: 20px;
    float: right;
    position: relative;
+   display: inline-block;
    top: 130px;
    right: -230px;
  }
  .right-stuff-2 i{
    font-size: 38px;
  }
- .right-stuff-2:hover i{
-   border: 2px;
-   border-radius: 4px;
-   background-color: #cccccc;
-   color: #595959;
- }
+ 
+
+ .right-content-2{
+display:none;
+position: absolute;
+background-color:rgba(255, 255, 255, 0.8);
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+right: 40px;
+z-index: 1;
+
+  }
+  .right-content-2 p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+  }
+.right-stuff-2:hover .right-content-2 {
+    display: block;
+}
+.right-stuff-2:hover i{
+  color:#739900;
+  border: 2px;
+  border-radius: 4px;
+  font-size: 52px;
+}
+ 
 /*------ stuff 2 ends------->*/
 
-
- .right-stuff-3{
+.right-stuff-3{
+     width: 60px;
+     height: 20px;
      float: right;
      position: relative;
-     right: -270px;
+     display: inline-block;
+     right: -280px;
      top: 240px;
 }
 .right-stuff-3 i{
     font-size: 38px;
 }
-right-stuff-3: hover{
-    font-size: 42px;
+.right-stuff-3:hover i{
+  background-color:#33334d;
+  color:   white;
+  border: 2px;
+  border-radius: 4px;
+  font-size: 52px;
 }
+
+ .right-content-3{
+display: none;
+position: absolute;
+right: 40px;
+background-color:rgba(255, 255, 255, 0.8);
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+  }
+  .right-content-3 p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+  }
+.right-stuff-3:hover .right-content-3 {
+    display: block;
+}
+.right-stuff-3:hover i{
+  background-color:#33334d;
+  color: white;
+  border: 2px;
+  border-radius: 4px;
+  font-size: 52px;
+}
+
 /*--------------stuff 3 ends-------->*/
 
 /*main 1*/
@@ -187,7 +249,7 @@ padding-left: 20px;
 }
 .part-1 img{
 float:right;
-margin-right:20px;
+margin-right:-250px;
 margin-top: 20px;
 }
 .part-1 h1{
@@ -195,7 +257,7 @@ margin-top: 20px;
   font-size: 40px;
 }
 .part-1 p{
-  width: 600px;
+  width: 500px;
 color: grey;
 padding: 10px;
 margin-top: 40px;
@@ -214,7 +276,7 @@ text-align: center;
   margin-left: -60px;*/
 }
 .part-2 h1{
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .part-2 p{
@@ -237,7 +299,8 @@ margin-right:120px;
     margin-top: -40px;
 }
 .part-3 p{
-    margin-left: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
     width: 400px;
     display: block;
     float: left;
@@ -251,20 +314,160 @@ margin-right:120px;
 }
 /*main 1 ends*/
 
-
+/*--------gallery---------*/
+ .gallery ul{
+   list-style-type: none;
+   overflow: hidden;
+ }
+ .gallery li {
+   float: left;
+ }
+ .gallery li img{
+   width: 300px;
+   padding: 16px;
+  margin-right: 20px;
+ }
+ 
+ 
+ /*.gallery:hover img{
+   width: 600px;*/
+ 
+ 
 
 
 #footer{
   width: 100%;
     overflow: auto;
     margin-top: 800px;
-    color:
     position: relative;
     /*right:950px;*/
-   
     }
+    
 #footer a{
     float: right;
     padding: 12px;
     margin-right: 25px;
+    }
+/*----------news-----------*/
+
+
+.news1{
+    width: 30%;
+    height: 650px;
+    display: block;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 360px;
+}
+
+.news1 img{
+    width: 360px;
+    padding: 5px;
+}
+.news1 h1{
+    padding: 10px;
+}
+.news1 p{
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+.news2{
+    height: 650px;
+    width: 30%;
+    display: block;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top:360px;
+    right:450px;
+}
+
+.news2 img{
+    width: 360px;
+    padding: 5px;
+    height: 400px;
+}
+.news2 h2{
+    padding:10px;
+}
+.news2 p{
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+.news3{
+    height: 650px;
+    width: 30%;
+    display: block;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top:360px;
+    right:45px;
+}
+
+.news3 img{
+    width: 360px;
+    padding: 5px;
+    height: 375px;
+}
+
+.news3 h1{
+    padding:10px;
+}
+.news3 p{
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+/*-------------heart dont forger 20-------------*/
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+  }
+
+.heart {
+  width: 50px;
+  height: 50px;
+  animation: heartbeat 1s infinite;
+  float: right;
+}
+.heart i{
+    color: red;
+}
+.heart p{
+ color: white;
 }
